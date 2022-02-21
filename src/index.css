@@ -1,0 +1,36 @@
+html{
+  font-size: 70.5%;
+  margin: 0;
+  background-color: aqua;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.TodoList-container {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 50px;
+}
+
+.TodoList-container.title {
+  font-size: 5rem;
+  padding: 10px 20px 0px 20px;
+  background-color: rgb(53, 235, 226);
+  border-radius: 10px;
+  border: 2px solid rgb(131, 9, 115);
+  align-self: center;
+  color: #3318aa;
+  font-family: 'Josefin Sans', sans-serif;
+}
